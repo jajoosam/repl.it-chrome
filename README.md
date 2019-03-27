@@ -1,5 +1,6 @@
-# repl.it-chrome
-A chrome extension to try code on repl.it
+<p align="center">
+  <img src="https://dsh.re/84837">
+</p>
 
 1. Download this repo, and unzip.
 2. Go to chrome://extensions - and hit load unpacked.
