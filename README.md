@@ -1,5 +1,4 @@
 <p align="center">
-  <h1>Run on Repl.it</h1>
   <img src="https://dsh.re/84837">
 </p>
 
