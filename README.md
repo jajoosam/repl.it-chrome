@@ -13,7 +13,7 @@ Try it out on [NPM](https://www.npmjs.com/package/express), [Gist](https://gist.
 ![](store-images/gist.png)
 
 ### Try an example on NPM
-![](store-images/gist.png)
+![](store-images/npm.png)
 
 ### Run code from anywhere
-![](store-images/context menu.png)
+![](store-images/context%20menu.png)
