@@ -2,12 +2,12 @@
   "manifest_version": 2,
  
   "name": "Repl.it",
-  "version": "0.2",
+  "version": "0.6",
   "description": "Run code across the web on repl.it",
   "icons": { "128": "icon.png" },
   "content_scripts": [{
     "js": ["index.js"],
-    "matches": ["http://*/*", "https://*/*"]
+    "matches": ["https://gist.github.com/*/*", "https://www.npmjs.com/package/*", "https://github.com/*/*"]
   }],
   "background":{
     "scripts": ["menu.js"],
@@ -16,7 +16,8 @@
   "permissions": [
     "contextMenus",
     "tabs",
-    "activeTab"
+    "activeTab",
+    "storage"
   ]
  
 }
