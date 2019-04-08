@@ -10,6 +10,8 @@ if(window.location.hostname == `www.npmjs.com`){
 }
 
 if(window.location.hostname == `github.com`){
-    document.querySelector(`.BtnGroup-item`).parentElement.innerHTML = `<a href="https://repl.it/github/${window.location.href}" target="_blank"<button class="btn btn-sm BtnGroup-item" type="submit" data-disable-with="Creating file…"> Edit on repl.it <div class="img" style="display: inline-block; position: relative; top: 3px; margin-left: 5px; width: 14px; height: 14px; background-image: url(https://avatars2.githubusercontent.com/u/983194?v=3&amp;s=100); background-size: 100% 100%; background-repeat: no-repeat;"></div> </button></a>` + document.querySelector(`.BtnGroup-item`).parentElement.innerHTML;
+    if(!window.location.href.includes('compare')){
+        document.querySelector(`.BtnGroup-item`).parentElement.innerHTML = `<a href="https://repl.it/github/${window.location.href}" target="_blank"<button class="btn btn-sm BtnGroup-item" type="submit" data-disable-with="Creating file…"> Edit on repl.it <div class="img" style="display: inline-block; position: relative; top: 3px; margin-left: 5px; width: 14px; height: 14px; background-image: url(https://avatars2.githubusercontent.com/u/983194?v=3&amp;s=100); background-size: 100% 100%; background-repeat: no-repeat;"></div> </button></a>` + document.querySelector(`.BtnGroup-item`).parentElement.innerHTML;
+    }
 }
 
