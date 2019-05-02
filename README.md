@@ -14,10 +14,10 @@ Try it out on [NPM](https://www.npmjs.com/package/express), [Gist](https://gist.
 ## Screenshots
 
 ### Running a gist
-![](store-images/gist.png)
+![gist.github.com screenshot](store-images/gist.png)
 
 ### Try an example on NPM
-![](store-images/npm.png)
+![npm.com screenshot](store-images/npm.png)
 
 ### Run code from anywhere
-![](store-images/context%20menu.png)
+![context menu screenshot](store-images/context%20menu.png)
